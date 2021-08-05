@@ -12,16 +12,61 @@
     <form action="">
         <div>
             <label for="Username">Enter Username: </label> <br>
-            <input type="text" id="Username" required>
+            <input type="text" id="Username" name="username" required>
+        </div>
+        <div>
+            <label for="country"> Entry country name: </label> <br>
+            <input type="text" id="country" name="country" value="India" disabled>
         </div>
         <div>
             <label for="Password">Enter Password: </label> <br>
-            <input type="password" id="Password" required>
+            <input type="password" id="Password" name="password" required>
+        </div>
+        <div>
+            <p>
+                <label for="gender"> Gender: </label>
+            </p>
+            <input type="radio" id="gender" name="gender" value="Male" checked> Male <br>
+            <input type="radio" id="gender" name="gender" value="Female"> Female <br>
+            <input type="radio" id="gender" name="gender" value="Others"> Others <br>
+        </div>
+        <div>
+            <p> <label for="course"> Course Done: </label></p>
+            <input type="checkbox" id="course" name="course" value="Java" checked> Java <br>
+            <input type="checkbox" id="course" name="course" value="Python"> Python <br>
+            <input type="checkbox" id="course" name="course" value="c++"> c++ <br>
+            <input type="checkbox" id="course" name="course" value="R"> R <br>
+            <input type="checkbox" id="course" name="course" value="GO"> Go <br>
+        </div>
+        <div>
+            <p><label for="month">Month</label></p>
+            <select name="month" id="month" multiple>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+                <option value="Jan">Jan</option>
+            </select>
+        </div>
+        <div>
+            <p><label for="experience">Experience: </label></p>
+            <textarea name="experience" id="experience" cols="30" rows="10"></textarea>
         </div>
         <div>
             <input type="submit">
         </div>
         <div>
+            <button type="reset">Refill form</button>
+        </div>
+        <!-- <div>
             <input type="color">
         </div>
         <div>
@@ -40,9 +85,9 @@
             <input type="url">
         </div>
         <div>
-            <!-- Step attribute defines the step by which the range slider will increase -->
+            Step attribute defines the step by which the range slider will increase
             <input type="range" min="10" max="50" step="10">
-        </div>
+        </div> -->
     </form>
 </body>
 
