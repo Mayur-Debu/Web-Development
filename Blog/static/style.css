@@ -1,102 +1,262 @@
-body{
-    margin: 50px;
+body {
+  margin: 50px;
 }
 
-/* Header Section */
-header{
-    margin-left: 15px;
+/*------------------------------------------------------------- Header Section ----------------------------------------------*/
+header {
+  margin-left: 15px;
 }
-#Header-Content{
-    display: inline-block;
-}
-
-#Logo-Image img{
-    height: 100px;
-    width: 220px;
-    margin-bottom: 15px;
+#Header-Content {
+  display: inline-block;
 }
 
-#Header-Content a{
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: black;
+#Logo-Image img {
+  height: 100px;
+  width: 220px;
+  margin-bottom: 15px;
 }
 
-#Header-Content a:hover{
-    color: orangered;
-    cursor: pointer;
+#Header-Content a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
 }
 
-#Header-Subtitle{
-    color: lightslategrey;
-    text-transform: capitalize;
-    font-size: 1.1rem;
-    margin-top: .5rem;
+#Header-Content a:hover {
+  color: orangered;
+  cursor: pointer;
 }
 
-
-/* Site Section */
-#Site-Section{
-    margin-top: -80px;
-    margin-left: -50px;
-    position: fixed;
-
+#Header-Subtitle {
+  color: lightslategrey;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
 }
 
-.site-dimension{
-    height: 48px;
-    width: 48px;
+/*------------------------------------------------------------- Site Section ----------------------------------------------*/
+#Site-Section {
+  margin-top: -80px;
+  margin-left: -50px;
+  position: fixed;
+  background-color: rgb(248, 244, 244);
 }
 
-.site-dimension img{
-    object-fit: contain;
+.site-dimension {
+  height: 48px;
+  width: 48px;
 }
 
-.site-dimension:hover{
-    position: relative;
-    margin-left: 10px;
-    cursor: pointer;
+.site-dimension i {
+  font-size: 30px;
+  margin-left: 9px;
+  margin-top: 7px;
 }
 
-/* BLog-Image */
-#Blog-Image img{
-    width: 100%;
-    margin-left: 22px;
+/* Hover Effects */
+
+.site-dimension .fa-facebook-f {
+  color: #3b5998;
 }
 
-
-/* Main Section */
-main{
-    width: 100vw;
-    display: inline-block;
+.site-dimension .fa-linkedin-in {
+  color: #0077b5;
 }
 
-#Main-Section-Heading{
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    width: 65vw;
-    color: rgba(0, 0, 0, 0.842);
-    margin-left: 15px;
+.site-dimension .fa-twitter {
+  color: #83c3f3;
+}
+
+.site-dimension .fa-google {
+  color: #dd4b39;
+}
+
+.site-dimension .fa-whatsapp {
+  color: #6ba92f;
+}
+
+.site-dimension .fa-envelope {
+  color: #ed4926;
+}
+
+/* Hover Effect */
+.site-dimension .fa-facebook-f:hover {
+  color: #2d4373;
+  cursor: pointer;
+  position: relative;
+  margin-left: 15px;
+}
+
+.site-dimension .fa-linkedin-in:hover {
+  color: #00121c;
+  cursor: pointer;
+  position: relative;
+  margin-left: 15px;
+}
+
+.site-dimension .fa-twitter:hover {
+  color: #55acee;
+  cursor: pointer;
+  position: relative;
+  margin-left: 15px;
+}
+
+.site-dimension .fa-google:hover {
+  color: #c23321;
+  cursor: pointer;
+  position: relative;
+  margin-left: 15px;
+}
+
+.site-dimension .fa-whatsapp:hover {
+  color: #528124;
+  cursor: pointer;
+  position: relative;
+  margin-left: 15px;
+}
+
+.site-dimension .fa-envelope:hover {
+  color: #cf3311;
+  cursor: pointer;
+  position: relative;
+  margin-left: 15px;
+}
+
+/*------------------------------------------------------------- BLog-Image ----------------------------------------------*/
+#Blog-Image img {
+  width: 100%;
+  margin-left: 22px;
+}
+
+/*------------------------------------------------------------- Main Section ----------------------------------------------*/
+main {
+  width: 100vw;
+  display: inline-block;
+}
+
+#Main-Section-Heading {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  width: 65vw;
+  color: rgba(0, 0, 0, 0.842);
+  margin-left: 25px;
 }
 
 /* Author Section */
-#Author-Section{
-    width: 10vw;
+#Author-Section {
+  width: 10vw;
+  display: inline-block;
+  margin-left: 25px;
+  vertical-align: top;
+}
+
+#Author-Avatar img {
+  border-radius: 50%;
+}
+
+.author-section-info {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* ------------------------------------------------------- Blog Content ------------------------------------------------ */
+#Blog-Content{
     display: inline-block;
+    width: 50vw;
 }
 
-#Author-Avatar img{
-    border-radius: 50%;
-    margin-left: 15px;
+#Blog-Insight-Image{
+    height: 20px;
+    width: 20px;
 }
 
-.author-section-info{
+#Blog-Insight{
+    font-weight: bold;
+    display: inline;
+    margin-left: 5px;
     font-family: sans-serif;
-    margin-left: 15px;
-    font-size: 14px;
+}
+
+.Blog-Content-Image{
+    height: 350px;
+    width: 700px;
+}
+
+#Blog-Content p{
+    width: 50vw;
+    font-size: 20px;
+}
+
+#Blog-Content h2{
+    text-transform: capitalize;
 }
 
 
+/* ----------------------------------------------------- Subsribe Section ------------------------------------------------- */
+#Subscription-Section{
+    width: 25vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#Subscibe-Heading{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#Subscription-Section #Subscribe-Section label{
+    display: block;
+}
+
+#Subscription-Section #Subscribe-Section button{
+    margin-top: 30px ;
+    margin-bottom: 50px;
+    display: block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+}
+
+#Subscription-Section #Subscribe-Section button:hover{
+    cursor: pointer;
+}
+
+input{
+    width: 20vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 25px;
+}
+
+label{
+    font-family: sans-serif;
+}
+
+/* -------------------------------------------------------- Search Section ------------------------------------------ */
+#Search-Box{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 20vw;
+    height: 25px;
+}
+
+#Search-Image{
+    margin-left: -50px;
+    background-color: black;
+    display: inline;
+    height: 25px;
+    width: 30px;
+    border-radius: 2px;
+}
