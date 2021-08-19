@@ -1,102 +1,171 @@
-body{
-    margin: 0px;
-    scroll-behavior: smooth;
-}
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Montserrat', sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-/* ---------------------------------------------------- Header Section --------------------------------------------------*/ 
-header{
-    display: inline-block;
+body {
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
-#Header-Background{
-    width: 100vw;
-    height: 75vh;
-    background-color: rgb(0, 0, 0);
+/* ---------------------------------------------------- Header Section --------------------------------------------------*/
+header {
+  display: inline-block;
 }
 
-#Header-Title{
-    font-size: 90px;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    margin-top: -340px;
-    text-shadow: 5px;
+#Header-Background {
+  width: 100vw;
+  height: 75vh;
+  background-color: rgb(0, 0, 0);
+}
+
+#Header-Title {
+  font-size: 90px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: -340px;
+  text-shadow: 5px;
 }
 
 /* ----------------------------------------------------------- NAVBAR SECITON ------------------------------------------- */
-#Header-Navbar{
-    margin-top: -320px;
-    margin-left: 168px;
+#Header-Navbar {
+  margin-top: -320px;
+  margin-left: 168px;
 }
 
-#Header-Navbar li{
-    display: inline-block;
-    font-family: sans-serif;
-    font-weight: 600;
-    text-align: center;
+#Header-Navbar li {
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
 }
 
-#Header-Navbar li a{
-    color: white;
-    text-decoration: none;
-    margin-left: 55px;
+#Header-Navbar li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 55px;
 }
 
-#Header-Navbar li a:hover{
-    color: yellow;
-    transition: color .5s;
+#Header-Navbar li a:hover {
+  color: yellow;
+  transition: color 0.5s;
 }
 
 /* ---------------------------------------------- HEADER SOCIAL MEDIA SECTION ---------------------------------------------- */
-#Header-Social{
-    margin-left: 450px;
-    margin-top: 280px;
+#Header-Social {
+  margin-left: 450px;
+  margin-top: 280px;
 }
 
-#Header-Social li{
-    display: inline-block;
+#Header-Social li {
+  display: inline-block;
 }
 
-#Header-Social li i{
-    font-size: 25px;
-    color: white;
-    margin-left: 30px;
+#Header-Social li i {
+  font-size: 25px;
+  color: white;
+  margin-left: 30px;
 }
 
-#Header-Social li i:hover{
-    cursor: pointer;
-    color: yellow;
-    transition: color 1s;
+#Header-Social li i:hover {
+  cursor: pointer;
+  color: yellow;
+  transition: color 1s;
 }
 
 /* ---------------------------------------------------- About Section -------------------------------------------------- */
-#About img{
-    border: 5px solid black;
-    border-radius: 50%;
-    margin-top: 50px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+#About img {
+  border: 5px solid black;
+  border-radius: 50%;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#About-Section-Heading{
-    text-align: center;
-    margin-top: 150px;
-    font-size: 45px;
+#About-Section-Heading {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 45px;
 }
 
-#About-Section-Info{
-    font-family: sans-serif;
-    text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    font-weight: 500;
+#About-Section-Info {
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
 }
 
+/* ---------------------------------------------------- Skills Section -------------------------------------------------- */
+#Skills-Container {
+  margin-top: 150px;
+  height: 500px;
+  width: 100vw;
+  background-color: black;
+}
+
+#Skills-Section-Heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.skills-display {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.skill-progress {
+  height: 35px;
+  width: 350px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 15px;
+  border-radius: 25px;
+}
+
+.eight-five-percent {
+  border-radius: 25px;
+  position: absolute;
+  background-color: yellow;
+  height: 35px;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -55px;
+}
+
+.skill-name span {
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.skill-progress:hover {
+  box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.747), 0 0 3px 3px lightslategray,
+    0 0 3px 3px gray;
+  transition: box-shadow 0.5s;
+}
