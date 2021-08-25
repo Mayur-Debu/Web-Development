@@ -116,7 +116,7 @@ header {
 /* ---------------------------------------------------- Skills Section -------------------------------------------------- */
 #Skills-Container {
   margin-top: 150px;
-  height: 500px;
+  height: auto;
   width: 100vw;
   background-color: black;
 }
@@ -131,17 +131,21 @@ header {
   color: white;
 }
 
+#Skills-Display-Container {
+  padding-bottom: 100px;
+}
 .skills-display {
   width: 75%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: auto;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 150px;
 }
 
 .skill-progress {
   height: 35px;
-  width: 350px;
+  width: 300px;
   background-color: grey;
   display: flex;
   justify-content: center;
@@ -153,25 +157,25 @@ header {
 .eight-five-percent {
   border-radius: 25px;
   position: absolute;
-  background-color: yellow;
+  background-color: white;
   height: 35px;
   width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -55px;
+  margin-left: -43px;
 }
 
 .sixty-five-percent {
   border-radius: 25px;
   position: absolute;
-  background-color: yellow;
+  background-color: white;
   height: 35px;
   width: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -120px;
+  margin-left: -108px;
 }
 
 .skill-name span {
@@ -185,6 +189,50 @@ header {
   box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.747), 0 0 3px 3px lightslategray,
     0 0 3px 3px gray;
   transition: box-shadow 0.5s;
+}
+
+/* ---------------------------------------------------- Projects Section -------------------------------------------------- */
+#Projects {
+  width: 100vw;
+  height: auto;
+  background-color: white;
+}
+
+#Projects-Heading h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+}
+
+#Projects-Heading span {
+  font-size: 20px;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+
+#Projects-Carousel {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+#Project-Set {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#Project-Set a img {
+  margin-top: -4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+#Project-Set img {
+  height: 380px;
+  width: 380px;
 }
 
 /* ---------------------------------------------------- Contact Section -------------------------------------------------- */
@@ -206,6 +254,10 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+}
+
+#Contact-Heading h2 {
+  margin-top: 100px;
 }
 
 #Contact-Heading i {
@@ -273,9 +325,11 @@ textarea {
   display: inline-block;
   margin-left: 150px;
   width: 500px;
+  margin-top: 80px;
 }
 
-#Contact-Info h2, p{
+#Contact-Info h2,
+p {
   color: white;
 }
 
@@ -293,12 +347,10 @@ textarea {
   display: inline-block;
 }
 
-
-#Footer{
+#Footer {
   margin-top: -150px;
 }
 
-#Footer ul li i{
+#Footer ul li i {
   margin-bottom: 50px;
 }
-
