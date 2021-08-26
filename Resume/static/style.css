@@ -15,6 +15,17 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: grey;
+}
+
+::selection {
+  color: black;
+  background-color: grey;
+}
+
 /* ---------------------------------------------------- Header Section --------------------------------------------------*/
 header {
   display: inline-block;
@@ -56,7 +67,9 @@ header {
 }
 
 #Header-Navbar li a:hover {
-  color: yellow;
+  background: -webkit-linear-gradient(#ee0979, #ff6a00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   transition: color 0.5s;
 }
 
@@ -78,7 +91,9 @@ header {
 
 #Header-Social li i:hover {
   cursor: pointer;
-  color: yellow;
+  background: -webkit-linear-gradient(#ee0979, #ff6a00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   transition: color 1s;
 }
 
@@ -186,8 +201,7 @@ header {
 }
 
 .skill-progress:hover {
-  box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.747), 0 0 3px 3px lightslategray,
-    0 0 3px 3px gray;
+  box-shadow: 0 0 3px 3px  #ff6a00, 0 0 9px 3px  #ee0979;
   transition: box-shadow 0.5s;
 }
 
@@ -316,9 +330,8 @@ textarea {
 
 #Contact-Form button:hover {
   cursor: pointer;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
-    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
-    rgb(255, 85, 85) 0px 0px 0px 15px;
+  box-shadow: black 0px 0px 0px 2px, white 0px 0px 0px 4px,
+    black 0px 0px 0px 6px, white 0px 0px 0px 8px, black 0px 0px 0px 10px;
 }
 
 #Contact-Info {
