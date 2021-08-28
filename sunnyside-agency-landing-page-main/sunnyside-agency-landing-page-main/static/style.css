@@ -161,13 +161,14 @@
     font-weight: 600;
 }
 
-.about-info-link{
+.about-info-link span{
     text-decoration: underline 5px solid  hsl(51, 100%, 49%);
     font-size: 18px;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease;
+    color: rgba(0, 0, 0, 0.829);
 }
 
-.about-info-link:hover{
+.about-info-link span:hover{
     text-decoration: none;
     cursor: pointer;
 }
@@ -177,6 +178,44 @@
     height: auto;
     background-image: url('./images/desktop/image-stand-out.jpg');
     background-size: contain;
+}
+
+.about-graphic-design{
+  background-image: url('./images/desktop/image-graphic-design.jpg');
+  width: 50vw;
+  height: auto;
+  background-size: contain;
+}
+
+.about-photography{
+  background-image: url('./images/desktop/image-photography.jpg');
+  width: 50vw;
+  height: 568px;
+  background-size: contain;
+}
+
+.about-section3-info{
+  margin: auto;
+  padding: auto;
+  margin-top: 350px;
+  width: 28vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.about-section3-info-title{
+  text-align: center;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.829);
+}
+
+.about-section3-info-paragraph{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(85, 84, 84, 0.815);
+  font-weight: 600;
+  line-height: 28px;
 }
 
 
