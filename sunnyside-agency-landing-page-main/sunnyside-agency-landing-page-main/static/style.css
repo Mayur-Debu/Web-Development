@@ -1,20 +1,20 @@
 * {
-  margin: 0px; 
+  margin: 0px;
   padding: 0px;
 }
 
-.fraunces-700{
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
+.fraunces-700 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
 }
 
-.fraunces-900{
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
+.fraunces-900 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
 }
 
-.barlow{
-    font-family: 'Barlow', sans-serif;
+.barlow {
+  font-family: "Barlow", sans-serif;
 }
 
 /* ***************************** HEADER SECTION ********************************** */
@@ -97,7 +97,7 @@
   letter-spacing: 6px;
 }
 
-.title img{
+.title img {
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -111,90 +111,91 @@
 }
 
 /* ***************************** About Section ********************************** */
-.about-section{
-    width: 100vw;
-    height: auto;
-    overflow: hidden;
+.about-section {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
 }
 
-.about-card{
-    width: 100vw;
-    height: auto;
-    display: flex;
+.about-card {
+  width: 100vw;
+  height: auto;
+  display: flex;
 }
 
-.about-info{
-    width: 50vw;
-    height: auto;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
+.about-info {
+  width: 50vw;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.about-info-image-1{
-    width: 50vw;
-    height: auto;
-    background-image: url('./images/desktop/image-transform.jpg');
-    background-size: contain;
+.about-info-image-1 {
+  width: 50vw;
+  height: auto;
+  background-image: url("./images/desktop/image-transform.jpg");
+  background-size: contain;
 }
 
-.about-info-card{
-    padding: 150px;
+.about-info-card {
+  padding: 150px;
 }
 
-.about-info-title, .about-info-paragraph{
-    margin-bottom: 35px;
+.about-info-title,
+.about-info-paragraph {
+  margin-bottom: 35px;
 }
 
-.about-info-title span{
-    text-align: left;
-    font-size: 35px;
-    color: rgba(0, 0, 0, 0.829);
+.about-info-title span {
+  text-align: left;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.829);
 }
 
-.about-info-paragraph p{
-    font-size: 18px;
-    text-align: left;
-    color: rgba(85, 84, 84, 0.815);
-    font-weight: 600;
+.about-info-paragraph p {
+  font-size: 18px;
+  text-align: left;
+  color: rgba(85, 84, 84, 0.815);
+  font-weight: 600;
 }
 
-.about-info-link span{
-    text-decoration: underline 5px solid  hsl(51, 100%, 49%);
-    font-size: 18px;
-    transition: all .3s ease;
-    color: rgba(0, 0, 0, 0.829);
+.about-info-link span {
+  text-decoration: underline 5px solid hsl(51, 100%, 49%);
+  font-size: 18px;
+  transition: all 0.3s ease;
+  color: rgba(0, 0, 0, 0.829);
 }
 
-.about-info-link span:hover{
-    text-decoration: none;
-    cursor: pointer;
+.about-info-link span:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.about-info-image-2{
-    width: 50vw;
-    height: auto;
-    background-image: url('./images/desktop/image-stand-out.jpg');
-    background-size: contain;
+.about-info-image-2 {
+  width: 50vw;
+  height: auto;
+  background-image: url("./images/desktop/image-stand-out.jpg");
+  background-size: contain;
 }
 
-.about-graphic-design{
-  background-image: url('./images/desktop/image-graphic-design.jpg');
+.about-graphic-design {
+  background-image: url("./images/desktop/image-graphic-design.jpg");
   width: 50vw;
   height: auto;
   background-size: contain;
 }
 
-.about-photography{
-  background-image: url('./images/desktop/image-photography.jpg');
+.about-photography {
+  background-image: url("./images/desktop/image-photography.jpg");
   width: 50vw;
   height: 568px;
   background-size: contain;
 }
 
-.about-section3-info{
+.about-section3-info {
   margin: auto;
   padding: auto;
   margin-top: 350px;
@@ -203,13 +204,13 @@
   overflow: hidden;
 }
 
-.about-section3-info-title{
+.about-section3-info-title {
   text-align: center;
   font-size: 25px;
   color: rgba(0, 0, 0, 0.829);
 }
 
-.about-section3-info-paragraph{
+.about-section3-info-paragraph {
   margin-top: 40px;
   text-align: center;
   font-size: 18px;
@@ -218,5 +219,92 @@
   line-height: 28px;
 }
 
+/* ***************************** Testimonial Section ********************************** */
 
+.testimonial-section {
+  width: 100vw;
+  height: auto;
+}
+
+.testimonial-section-card {
+  width: 85vw;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.testimonial-section-card-title {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: rgba(85, 84, 84, 0.61);
+}
+
+
+.testimonials{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.testimonial-card{
+  width: 25vw;
+  height: auto;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.testimonial-card:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.testimonial-image img{
+  border-radius: 50%;
+}
+
+.testimonial-image img{
+  height: 70px;
+}
+
+.testimony{
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 50px  ;
+}
+
+.testimony p{
+  line-height: 28px;
+  text-align: center;
+  font-size: 18px;  
+  color: rgba(85, 84, 84, 0.815);
+}
+
+.testimonial-name{
+  margin-top: 50px;
+}
+
+.testimonial-name span{
+  font-size: 20px;
+}
+
+.testimonial-designation{
+  margin-top: 10px;
+}
+
+.testimonial-designation span{
+  color: rgba(85, 84, 84, 0.61);
+  font-weight: 600;
+}
 
