@@ -242,69 +242,81 @@
   color: rgba(85, 84, 84, 0.61);
 }
 
-
-.testimonials{
+.testimonials {
   width: auto;
   height: auto;
   display: flex;
   justify-content: center;
   font-weight: 600;
   margin-top: 30px;
+  padding: 20px;
 }
 
-.testimonial-card{
+.testimonial-card {
   width: 25vw;
   height: auto;
   margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  padding: 30px;
   margin-top: 50px;
   padding-top: 30px;
   border-radius: 30px;
-  margin-bottom: 50px;
 }
 
-.testimonial-card:hover{
+.testimonial-card:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
-.testimonial-image img{
+.testimonial-image img {
   border-radius: 50%;
 }
 
-.testimonial-image img{
+.testimonial-image img {
   height: 70px;
 }
 
-.testimony{
+.testimony {
   margin: auto;
   margin-top: 80px;
-  margin-bottom: 50px  ;
+  margin-bottom: 50px;
 }
 
-.testimony p{
+.testimony p {
   line-height: 28px;
   text-align: center;
-  font-size: 18px;  
+  font-size: 18px;
   color: rgba(85, 84, 84, 0.815);
 }
 
-.testimonial-name{
+.testimonial-name {
   margin-top: 50px;
 }
 
-.testimonial-name span{
+.testimonial-name span {
   font-size: 20px;
 }
 
-.testimonial-designation{
+.testimonial-designation {
   margin-top: 10px;
 }
 
-.testimonial-designation span{
+.testimonial-designation span {
   color: rgba(85, 84, 84, 0.61);
   font-weight: 600;
 }
 
+/* ***************************** Image Carousel Section ********************************** */
+.image-carousel {
+  width: 100vw;
+  height: 400px;
+  background-color: green;
+  display: flex;
+}
+
+.image-carousel img {
+  width: 25vw;
+  height: auto;
+  background-size: cover;
+}
