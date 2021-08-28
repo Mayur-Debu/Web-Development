@@ -6,8 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
 
+  <!-- Link the Fav icon-->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <!-- Link the css file -->
   <link rel="stylesheet" href="./static/style.css" />
+
+  <!-- Link the fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Fraunces:wght@900&display=swap"
+    rel="stylesheet">
 
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -29,15 +36,14 @@
 <body>
   <div class="wrapper">
 
-    <!-- Banner of the Landing Page -->
+    <!-- #TODO: Banner of the Landing Page -->
     <div class="banner">
-
-      <!-- Header -->
+      <!-- Header Section-->
       <div class="header">
         <!-- logo -->
         <img src="./static/images/logo.svg" alt="">
         <!-- Menu -->
-        <div class="menu">
+        <div class="menu barlow">
           <ul>
             <li>About</li>
             <li>Services</li>
@@ -49,13 +55,66 @@
         </div>
       </div>
 
-      <div class="title">
+      <div class="title fraunces-700">
         <span>WE ARE CREATIVES</span>
         <img src="./static/images/icon-arrow-down.svg" alt="">
       </div>
     </div>
 
-    
+    <!-- #TODO: About Section Part1 -->
+    <section class="about-section">
+      <div class="about-card">
+        <div class="about-info">
+          <div class="about-info-card">
+            <div class="about-info-title fraunces-700">
+              <span>Transform your brand</span>
+            </div>
+            <div class="about-info-paragraph barlow">
+              <p>
+                We are a full-service creative agency specializing in helping brands grow fast. Engage your clients
+                through compelling visuals that do most of the marketing for you.
+              </p>
+            </div>
+            <div class="about-info-link fraunces-700">
+              <span>Learn More</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- about Image -->
+        <div class="about-info-image-1">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- #TODO: About Section Part -->
+    <section class="about-section">
+      <div class="about-card">
+
+        <!-- about Image -->
+        <div class="about-info-image-2">
+
+        </div>
+        <div class="about-info">
+          <div class="about-info-card">
+            <div class="about-info-title fraunces-700">
+              <span>Stand out to the right audience</span>
+            </div>
+            <div class="about-info-paragraph barlow">
+              <p>
+                Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+                we’ll build and extend your brand in digital places.
+              </p>
+            </div>
+            <div class="about-info-link fraunces-700">
+              <span>Learn More</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 
   <div class="attribution">

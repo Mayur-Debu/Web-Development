@@ -1,11 +1,26 @@
 * {
-  margin: 0px;
+  margin: 0px; 
   padding: 0px;
+}
+
+.fraunces-700{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.fraunces-900{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.barlow{
+    font-family: 'Barlow', sans-serif;
 }
 
 /* ***************************** HEADER SECTION ********************************** */
 .banner {
   height: 100vh;
+  width: 100vw;
   background-image: url(./images/desktop/image-header.jpg);
   background-position: center;
   background-size: cover;
@@ -16,7 +31,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 25px;
 }
 
 .menu {
@@ -24,7 +39,7 @@
 }
 
 .menu li {
-  margin-right: 20px;
+  margin-right: 30px;
   font-size: 18px;
   text-transform: capitalize;
   display: flex;
@@ -47,13 +62,13 @@
   display: flex;
   align-items: center;
   background-color: white;
-  padding: 10px 15px;
+  padding: 12px 15px;
   border-radius: 30px;
 }
 
 .button span {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 13px;
+  font-family: fraunces, sans-serif;
 }
 
 .menu li:hover {
@@ -75,25 +90,94 @@
 }
 
 .title span {
-  font-size: 70px;
+  font-size: 60px;
   color: white;
   position: absolute;
   margin-bottom: 500px;
+  letter-spacing: 6px;
 }
 
-.title img {
-  /* margin-top: -500px; */
-  transition: all 0.5s ease-in-out;
-  padding-top: 50px;
+.title img{
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 .title img:hover {
-  margin-bottom: -150px;
+  margin-bottom: -100px;
 }
 
 .title img {
-  margin-top: 50px;
+  margin-top: -150px;
 }
 
-/* ***************************** SECTION-1 ********************************** */
+/* ***************************** About Section ********************************** */
+.about-section{
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.about-card{
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+
+.about-info{
+    width: 50vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-info-image-1{
+    width: 50vw;
+    height: auto;
+    background-image: url('./images/desktop/image-transform.jpg');
+    background-size: contain;
+}
+
+.about-info-card{
+    padding: 150px;
+}
+
+.about-info-title, .about-info-paragraph{
+    margin-bottom: 35px;
+}
+
+.about-info-title span{
+    text-align: left;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.about-info-paragraph p{
+    font-size: 18px;
+    text-align: left;
+    color: rgba(85, 84, 84, 0.815);
+    font-weight: 600;
+}
+
+.about-info-link{
+    text-decoration: underline 5px solid  hsl(51, 100%, 49%);
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.about-info-link:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about-info-image-2{
+    width: 50vw;
+    height: auto;
+    background-image: url('./images/desktop/image-stand-out.jpg');
+    background-size: contain;
+}
+
+
+
