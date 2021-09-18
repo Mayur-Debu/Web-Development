@@ -264,3 +264,53 @@ body {
   cursor: pointer;
   background-color: hsl(187, 40%, 68%);
 }
+
+
+/* MEDIA QUERIES FOR MOBILE DESIGN */
+
+@media only screen and (max-width: 474px){
+  .splitterComponent{
+    flex-direction: column;
+    height: auto;
+    width: 90vw;
+  }
+
+  .billInputComponent{
+    width: auto;
+    height: auto;
+  }
+
+  .billOutputComponent{
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .billInputComponent .billTipSection .option{
+    width: 180px;
+    justify-content: space-between;
+  }
+
+  .billInputComponent .billTipSection .tipOptions input{
+    width: 170px;
+  }
+
+  .billOutputComponent{
+    width: inherit;
+  }
+
+  .reset{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  .outputSubtitle{
+    width: auto;
+    font-size: 15px;
+  }
+
+  .billOutputComponent .totalValue{
+    margin-left: 85px;
+  }
+}
