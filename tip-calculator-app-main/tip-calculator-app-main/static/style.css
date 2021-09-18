@@ -207,3 +207,60 @@ body {
   margin: auto;
   border-radius: 15px;
 }
+
+.billOutputComponent .tipPerPerson {
+  margin: 50px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.billOutputComponent .tipPerPerson .outputTitle {
+  font-size: 24px;
+  color: hsl(189, 41%, 97%);
+}
+
+.billOutputComponent .tipPerPerson .outputSubtitle {
+  color: hsl(184, 14%, 56%);
+}
+
+.billOutputComponent .outputInfo {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.tipPerPerson .tipValue {
+  font-size: 50px;
+  align-items: center;
+  margin-left: 60px;
+  color: cyan;
+}
+
+.tipPerPerson .totalValue {
+  font-size: 50px;
+  align-items: center;
+  margin-left: 130px;
+  color: cyan;
+}
+
+.reset {
+  width: 400px;
+  height: 50px;
+  background-color: hsl(185, 41%, 84%);
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 148px;
+}
+
+.reset span {
+  font-size: 24px;
+  color: hsl(183, 100%, 15%);
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: hsl(187, 40%, 68%);
+}
