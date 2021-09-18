@@ -314,3 +314,50 @@ body {
     margin-left: 85px;
   }
 }
+
+
+/*  Media queries for the small mobiles */
+@media only screen and (max-width: 375px){
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .splitterComponent{
+    width: 90vw;
+  }
+
+  .billTipSection .tipOptions .option{
+    width: 140px;
+  }
+
+  .billTipSection .tipOptions .custom{
+    width: 135px !important;
+  }
+
+  .errorMessage{
+    font-size: 13px !important;
+    padding-top: 5px;
+  }
+
+  .billOutputComponent .tipPerPerson{
+    margin-left: 30px;
+  }
+
+  .tipPerPerson .tipValue{
+    font-size: 40px;
+  }
+
+  .tipPerPerson .totalValue{
+    font-size: 40px;
+    margin-left: 75px;
+  }
+
+  .reset{
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+}
