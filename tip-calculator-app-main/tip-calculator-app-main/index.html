@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./static/style.css">
 
     <!-- Link the Scripts -->
-    <link rel="Scripts" href="./js/script.js">
+    <script type="text/javascript" src="./js/script.js"></script>
 
     <!-- Link Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
@@ -60,7 +60,7 @@
                                 <span>50%</span>
                             </div>
 
-                            <input type="text" class="defaultFont custom" placeholder="Custom %">
+                            <input type="text" class="defaultFont custom" id="customTip" placeholder="Custom %">
                         </div>
                     </div>
 
@@ -68,12 +68,12 @@
                     <!-- Number of People Section -->
                     <div class="peopleInfoSection">
                         <label for="billTotal" class="defaultFont darkGrayCyan">Number of People</label>
-                        <input type="text" id="billTotal" class="defaultFont">
+                        <input type="text" id="numberOfPeople" class="defaultFont">
                         <span class="dollar defaultFont">$</span>
                     </div>
 
-                    <!-- TODO: Has to be shown only when the no of people are zero -->
-                    <span class="defaultFont errorMessage">Can't be Zero</span>
+                    <!--  TODO: Has to be shown only when the no of people are zero -->
+                    <span class="defaultFont errorMessage" id="errorMessage">Can't be Zero</span>
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
                         <span class="defaultFont outputTitle">Tip Amount</span>
                         <span class="defaultFont outputSubtitle">/ person</span>
                     </div>
-                    <span class="defaultFont tipValue">$0.00</span>
+                    <span class="defaultFont tipValue" id="tipValue">$0.00</span>
                 </div>
 
                 <!-- Total Per person -->
@@ -95,11 +95,11 @@
                         <span class="defaultFont outputTitle">Total</span>
                         <span class="defaultFont outputSubtitle">/ person</span>
                     </div>
-                    <span class="defaultFont totalValue">$0.00</span>
+                    <span class="defaultFont totalValue" id="totalValue">$0.00</span>
                 </div>
 
                 <!-- Reset -->
-                <div class="reset">
+                <div class="reset" onclick="reset()">
                     <span class="defaultFont">RESET</span>
                 </div>
             </div>
