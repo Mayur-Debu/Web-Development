@@ -191,7 +191,7 @@ body {
 
 .errorMessage {
   font-size: 18px;
-  color: red;
+  color: white;
   text-align: right;
   display: block;
   margin-top: -80px;
@@ -265,99 +265,95 @@ body {
   background-color: hsl(187, 40%, 68%);
 }
 
-
 /* MEDIA QUERIES FOR MOBILE DESIGN */
 
-@media only screen and (max-width: 474px){
-  .splitterComponent{
+@media only screen and (max-width: 474px) {
+  .splitterComponent {
     flex-direction: column;
     height: auto;
     width: 90vw;
   }
 
-  .billInputComponent{
+  .billInputComponent {
     width: auto;
     height: auto;
   }
 
-  .billOutputComponent{
+  .billOutputComponent {
     width: auto;
     height: auto;
     margin-top: 80px;
   }
 
-  .billInputComponent .billTipSection .option{
+  .billInputComponent .billTipSection .option {
     width: 180px;
     justify-content: space-between;
   }
 
-  .billInputComponent .billTipSection .tipOptions input{
+  .billInputComponent .billTipSection .tipOptions input {
     width: 170px;
   }
 
-  .billOutputComponent{
+  .billOutputComponent {
     width: inherit;
   }
 
-  .reset{
+  .reset {
     margin-top: 10px;
     margin-bottom: 20px;
   }
 
-
-  .outputSubtitle{
+  .outputSubtitle {
     width: auto;
     font-size: 15px;
   }
 
-  .billOutputComponent .totalValue{
+  .billOutputComponent .totalValue {
     margin-left: 85px;
   }
 }
 
-
 /*  Media queries for the small mobiles */
-@media only screen and (max-width: 375px){
-  .wrapper{
+@media only screen and (max-width: 375px) {
+  .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .splitterComponent{
+  .splitterComponent {
     width: 90vw;
   }
 
-  .billTipSection .tipOptions .option{
+  .billTipSection .tipOptions .option {
     width: 140px;
   }
 
-  .billTipSection .tipOptions .custom{
+  .billTipSection .tipOptions .custom {
     width: 135px !important;
   }
 
-  .errorMessage{
+  .errorMessage {
     font-size: 13px !important;
     padding-top: 5px;
   }
 
-  .billOutputComponent .tipPerPerson{
+  .billOutputComponent .tipPerPerson {
     margin-left: 30px;
   }
 
-  .tipPerPerson .tipValue{
+  .tipPerPerson .tipValue {
     font-size: 40px;
   }
 
-  .tipPerPerson .totalValue{
+  .tipPerPerson .totalValue {
     font-size: 40px;
     margin-left: 75px;
   }
 
-  .reset{
+  .reset {
     width: auto;
     margin-left: 15px;
     margin-right: 15px;
   }
-
 }
