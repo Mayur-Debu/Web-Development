@@ -1,0 +1,15 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "This is a todo list app, which adds and removes the daily to do tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TODO_APP",
+    "Node_js"
+  ],
+  "author": "Mayur-Debu",
+  "license": "ISC"
+}

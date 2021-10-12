@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+}
+
+.font-Heading {
+  font-family: "Righteous", cursive;
+}
+
+.font-Sub-Heading {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.wrapper {
+  width: 850px;
+  height: 450px;
+  margin: auto;
+  margin-top: 15vh;
+  /* background-image: linear-gradient(#1A2980,#26D0CE); */
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.979) 0px 8px 16px -8px;
+}
+
+/* ----------------------------------- Heading Section ---------------------------------------- */
+.heading-Section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  padding-top: 1rem;
+}
+
+.heading-Section:hover {
+  cursor: help;
+}
+
+/* ----------------------------------- Event Maker Section ---------------------------------------- */
+.event-Maker {
+  width: 750px;
+  height: auto;
+  background-color: white;
+  margin: auto;
+  margin-top: 2.5rem;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+/* ----------------------------------- Event Maker Section ---------------------------------------- */
+.description {
+  height: 7rem;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-left: 2rem;
+  font-size: 24px;
+}
+
+#todo-Description {
+  width: 41.5rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  height: 3rem;
+  font-size: 18px;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 5px;
+}
+
+#todo-Description:focus {
+  outline: none;
+}
+
+.select-Category-And-Date {
+  display: flex;
+}
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.selector select {
+  width: 20rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  height: 3rem;
+  border-color: transparent;
+  border: 0px solid;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  outline: none;
+  font-size: 18px;
+  background-color: transparent;
+  color: lightslategray;
+}
+
+.selector select:focus {
+  outline: none;
+}
+
+#date-Selector {
+  width: 20rem;
+  margin: auto;
+  margin-left: 2rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  border: 0px solid;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  font-size: 18px;
+  color: lightslategray;
+}
+
+#date-Selector:focus {
+  outline: none;
+}
