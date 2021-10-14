@@ -16,6 +16,10 @@
     <!-- Link the fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- Linking the font awesome icon cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -37,7 +41,6 @@
             </div>
 
             <div class="select-Category-And-Date">
-
                 <div class="selector">
                     <span class="title font-Heading">Category</span>
                     <select class="font-Sub-Heading" name="" id="">
@@ -51,6 +54,66 @@
                     <span class="title font-Heading">Due Date</span>
                     <input class="font-Sub-Heading" type="date" name="" id="date-Selector">
                 </div>
+            </div>
+
+            <div class="button-Section">
+                <div class="button add-Tasks-Button">
+                    <i class="fas fa-plus"></i>
+                    <span class="font-Heading">ADD TASK</span>
+                </div>
+
+                <div class="button delete-Tasks-Button">
+                    <i class="fas fa-trash-alt"></i>
+                    <span class="font-Heading">DELETE TASKS</span>
+                </div>
+            </div>
+
+            <!-- Div for the Separating line between the event maker and the event carousel -->
+            <div class="seprating-Line"></div>
+
+            <!-- This section is for the event display carousel -->
+            <div class="event-Carousel">
+
+                <!-- Home Event -->
+                <div class="home-Event">
+                    <div class="event">
+                        <input type="checkbox" name="" id="event-Checkbox">
+                        <div class="event-Desciption">
+                            <span class="event-Content font-Sub-Heading"> The task you are supposed to do </span>
+                        </div>
+                        <div class="event-Label event-Label-Home">
+                            <span class="font-Heading" title="Task accociated with home">Home</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Event  -->
+                <div class="work-Event">
+
+                    <div class="event">
+                        <input type="checkbox" name="" id="event-Checkbox">
+                        <div class="event-Desciption">
+                            <span class="event-Content font-Sub-Heading"> The task you are supposed to do </span>
+                        </div>
+                        <div class="event-Label event-Label-Work">
+                            <span class="font-Heading" title="Task associated with work">Work</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Event -->
+                <div class="personal-Event">
+                    <div class="event">
+                        <input type="checkbox" name="" id="event-Checkbox">
+                        <div class="event-Desciption">
+                            <span class="event-Content font-Sub-Heading"> The task you are supposed to do </span>
+                        </div>
+                        <div class="event-Label event-Label-Personal">
+                            <span class="font-Heading" title="Task associated with you">Personal</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
